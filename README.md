@@ -1,4 +1,6 @@
 # 📊 Data Analytics Project
+
+![Power BI Dashboard](https://github.com/shrutivaidya-design/Customer_Behavior_Analysis/blob/main/customer_behavior_dashboard_image.png)
 ## 📌 Overview
 This project demonstrates an end-to-end data analytics workflow, starting from raw data ingestion to delivering business insights through dashboards and reports.
 This project includes following steps:
