@@ -20,20 +20,17 @@ group by shipping_type
 
 --5) Do subscribed customers spend more? compare average apend and total revenue 
 --between subscribers and non-subscribers 
-
 select subscription_status,COUNT(customer_id) as total_customers,ROUND(avg(purchase_amount),2) as average_spend,sum(purchase_amount) as total_revenue
 from customer
 group by subscription_status
 order by average_spend desc,total_revenue 
 
 --6)Which 5 products have the highest percentage of purchases with discounts applied?
-
 select item_purchased,
 ROUND(100.00*SUM(CASE WHEN discount_applied = 'Yes' THEN 1 ELSE 0 end )/Count(*),2) as discount_rate from customer
 group by item_purchased
 order by discount_rate desc
 limit 5
-
 
 --Q7. Segment customers into New, Returning, and Loyal based on their total 
 -- number of previous purchases, and show the count of each segment. 
