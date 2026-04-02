@@ -16,7 +16,7 @@ It includes multiple features such as numerical and categorical variables.
 Data quality issues (missing values, duplicates, inconsistencies) were identified and handled during preprocessing.
 
 ## 🛠️ Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seabor) – Data loading, cleaning, and EDA
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn) – Data loading, cleaning, and EDA
 - **SQL** (PostgreSQL / MySQL / SQL Server) – Data querying and transformation
 - **Power BI** – Interactive dashboard creation
 - **Gamma** – Presentation (PPT) creation
@@ -28,8 +28,11 @@ Data quality issues (missing values, duplicates, inconsistencies) were identifie
 - Performed initial inspection (shape, columns, data types)
 
 # 2. Exploratory Data Analysis (EDA)
-- Analyzed distributions and relationships
-- Identified trends, patterns, and anomalies
+- Analyzed customer demographics and purchasing behavior
+- Explored:
+  - Spending patterns by category and gender
+  - Seasonal trends
+  - Popular products and colors
 - Visualized key insights using charts and graphs
 
 # 3. Data Cleaning
@@ -45,11 +48,12 @@ Data quality issues (missing values, duplicates, inconsistencies) were identifie
 - Filter and segment records
 - Generate business insights
 
-
 # 5. Dashboard Development
-- Built an interactive Power BI dashboard
-- Included KPIs, filters, and visualizations
-- Focused on usability and storytelling
+- Built an interactive Power BI dashboard featuring:
+- Sales overview (KPIs)
+- Category-wise performance
+- Customer segmentation
+- Purchase trends over time
 
 # 6. Reporting & Presentation
 - Created a structured analytical report
@@ -63,32 +67,33 @@ The Power BI dashboard includes:
 - Interactive filters for deeper exploration
 
 ## 📈 Results & Insights
-- Identified key trends and patterns in the dataset
-- Highlighted actionable insights for decision-making
-- Improved data quality and usability through preprocessing
-- Delivered a clear, visual representation of findings
+- Identified key customer segments based on purchase behavior
+- Highlighted top-performing product categories
+- Observed trends in seasonal and frequent purchases
+- Analyzed the impact of discounts and promo codes
+- Provided insights into preferred payment methods and shipping types
 
 ## ▶️ How to Run
-1. Clone the Repository
+# 1. Clone the Repository
 git clone <your-repo-link>
 cd <project-folder>
 
-2. Install Dependencies
+# 2. Install Dependencies
 pip install -r requirements.txt
 
-3. Run Python Analysis
-Open the Jupyter Notebook
-Execute cells step-by-step
+# 3. Run Python Analysis
+- Open the Jupyter Notebook
+- Execute cells step-by-step
 
-4. Set Up Database
-Import dataset into PostgreSQL
-Run SQL scripts provided in the /sql folder
+# 4. Set Up Database
+- Import dataset into PostgreSQL
+- Run SQL scripts provided in the /sql folder
 
-5. View Dashboard
-Open the Power BI .pbix file
-Refresh data if needed
+# 5. View Dashboard
+- Open the Power BI .pbix file
+- Refresh data if needed
 
-6. View Presentation
+# 6. View Presentation
 Open the Gamma-generated PPT file
 
 ## 📎 Project Deliverables
@@ -99,5 +104,5 @@ Open the Gamma-generated PPT file
 - Final report
 - Presentation (PPT)
 
-💡 Key Takeaway
-This project highlights the complete data analytics lifecycle, combining technical skills with business storytelling to deliver meaningful insights.
+## 💡 Key Takeaway
+This project highlights the complete data analytics lifecycle -from raw data to business insights-combining technical skills in Python, SQL, and Power BI with effective data storytelling.
