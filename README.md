@@ -4,9 +4,9 @@
 This project demonstrates an end-to-end data analytics workflow, starting from raw data ingestion to delivering business insights through dashboards and reports. The goal is to showcase practical skills in data cleaning, exploratory data analysis (EDA), SQL querying, and data visualization.
 
 📂 Dataset
-•The dataset used in this project contains structured data suitable for analysis.
-•It includes multiple features such as numerical and categorical variables.
-•Data quality issues (missing values, duplicates, inconsistencies) were identified and handled during preprocessing.
+The dataset used in this project contains structured data suitable for analysis.
+It includes multiple features such as numerical and categorical variables.
+Data quality issues (missing values, duplicates, inconsistencies) were identified and handled during preprocessing.
 
 🛠️ Tools & Technologies
 Python (Pandas, NumPy, Matplotlib, Seaborn) – Data loading, cleaning, and EDA
