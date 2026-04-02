@@ -1,9 +1,10 @@
-# 📊 Data Analytics Project
+# 📊 Customer Shopping Behavior Analysis
 
 ![Power BI Dashboard](https://github.com/shrutivaidya-design/Customer_Behavior_Analysis/blob/main/customer_behavior_dashboard_image.png)
+
 ## 📌 Overview
-This project demonstrates an end-to-end data analytics workflow, starting from raw data ingestion to delivering business insights through dashboards and reports.
-This project includes following steps:
+This project demonstrates an end-to-end data analytics workflow using a customer shopping dataset.The goal is to analyze customer purchasing patterns, identify trends, and generate actionable insights using Python, SQL, and Power BI.
+  This project includes following steps:
 - Data cleaning and preprocessing  
 - Exploratory Data Analysis (EDA)  
 - SQL-based analysis  
@@ -15,7 +16,7 @@ It includes multiple features such as numerical and categorical variables.
 Data quality issues (missing values, duplicates, inconsistencies) were identified and handled during preprocessing.
 
 ## 🛠️ Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn) – Data loading, cleaning, and EDA
+- **Python** (Pandas, NumPy, Matplotlib, Seabor) – Data loading, cleaning, and EDA
 - **SQL** (PostgreSQL / MySQL / SQL Server) – Data querying and transformation
 - **Power BI** – Interactive dashboard creation
 - **Gamma** – Presentation (PPT) creation
@@ -39,7 +40,7 @@ Data quality issues (missing values, duplicates, inconsistencies) were identifie
 
 # 4. SQL Analysis
 - Loaded cleaned data into a relational database
-- Wrote SQL queries to:
+- Performed queries such as:
 - Aggregate data
 - Filter and segment records
 - Generate business insights
