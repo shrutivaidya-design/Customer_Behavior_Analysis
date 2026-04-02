@@ -75,6 +75,7 @@ The Power BI dashboard includes:
 - Provided insights into preferred payment methods and shipping types
 
 ## ▶️ How to Run
+
 # 1. Clone the Repository
 git clone <your-repo-link>
 cd <project-folder>
