@@ -51,9 +51,9 @@ Data quality issues (missing values, duplicates, inconsistencies) were identifie
 # 5. Dashboard Development
 - Built an interactive Power BI dashboard featuring:
 - Sales overview (KPIs)
+- Customer Insights 
 - Category-wise performance
-- Customer segmentation
-- Purchase trends over time
+- Age Group Analysis
 
 # 6. Reporting & Presentation
 - Created a structured analytical report
@@ -62,8 +62,9 @@ Data quality issues (missing values, duplicates, inconsistencies) were identifie
 ## 📊 Dashboard
 The Power BI dashboard includes:
 - Key performance indicators (KPIs)
-- Trend analysis
+- Revenue Trend analysis
 - Category-wise breakdowns
+- Customer Segmentation
 - Interactive filters for deeper exploration
 
 ## 📈 Results & Insights
